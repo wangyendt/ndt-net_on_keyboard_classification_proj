@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f44e3684-54d3-44fa-b873-dfc46d462195" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.synctex.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn1.bias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn1.running_mean" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn1.running_var" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn1.weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn2.bias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn2.running_mean" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn2.running_var" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bn2.weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1.bias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1.weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l2.bias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l2.weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l3.bias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l3.weight" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$py_test_in_ndt_net_torch_py.coverage" NAME="py.test in ndt_net_torch.py Coverage Results" MODIFIED="1534840319237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$ndt_net_torch.coverage" NAME="ndt_net_torch Coverage Results" MODIFIED="1534840390299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ndt_net_torch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ndt_net_torch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#181#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ndt_net_torch.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -13,11 +76,50 @@
     <option name="width" value="1326" />
     <option name="height" value="1107" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ndt-net_on_keyboard_classification_proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndt-net_on_keyboard_classification_proj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndt-net_on_keyboard_classification_proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndt-net_on_keyboard_classification_proj" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.ndt_net_torch">
     <configuration name="ndt_net_torch" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -64,5 +166,69 @@
         <item itemvalue="Python tests.py.test in ndt_net_torch.py" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f44e3684-54d3-44fa-b873-dfc46d462195" name="Default" comment="" />
+      <created>1534840273653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534840273653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_ndt_net_torch_py - 2018.08.21 at 16h 32m 02s.xml">
+      <configuration name="py.test in ndt_net_torch.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36759582" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17946646" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ndt_net_torch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#181#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -1,0 +1,23 @@
+% !TEX program = xelatex
+\documentclass[20pt]{article}
+    \usepackage{amsmath}
+    \DeclareMathOperator*{\argmax}{\arg\max}   % rbp
+    \DeclareMathOperator*{\argmin}{\arg\min}   % rbp
+    \begin{document}
+    
+    $$ y\_pred = X \cdot l1\_weight + l1\_bias $$
+    $$ y\_pred = \frac{y\_pred - bn1\_running\_mean}{\sqrt{bn1\_running\_var + 1e^{-5}}} $$
+    $$ y\_pred = bn1\_weight \cdot y\_pred + bn1\_bias $$
+    $$ y\_pred = relu(y\_pred) $$
+    
+    
+    $$ y\_pred = y\_pred \cdot l2\_weight + l2\_bias $$
+    $$ y\_pred = \frac{y\_pred - bn2\_running\_mean}{\sqrt{bn2\_running\_var + 1e^{-5}}} $$
+    $$ y\_pred = bn2\_weight \cdot y\_pred + bn2\_bias $$
+    $$ y\_pred = relu(y\_pred) $$
+
+    $$ y\_pred = y\_pred \cdot l3\_weight + l3\_bias $$
+    $$ y\_pred = \argmax(y\_pred) $$
+    % $$ y\_pred = \argmax\nolimits_x $$
+    
+    \end{document}
