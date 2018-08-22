@@ -19,7 +19,7 @@ import numpy as np
 class NDT_Net(nn.Module):
     def __init__(self):
         super(NDT_Net, self).__init__()
-        self.l1 = nn.Linear(6, 20)
+        self.l1 = nn.Linear(7, 20)
         self.bn1 = nn.BatchNorm1d(20)
         self.l2 = nn.Linear(20, 20)
         self.bn2 = nn.BatchNorm1d(20)
@@ -51,6 +51,8 @@ def train(loader, epochs, learning_rate):
     cost = []
     for epoch in range(epochs):
         for step, (batch_x, batch_y) in enumerate(loader):
+            if np.shape(batch_x)[0] == 1:
+                continue
             bx, by = Variable(batch_x).cuda(), Variable(batch_y).cuda()
             optimizer.zero_grad()
             y_pred = model(bx)
@@ -65,26 +67,27 @@ def train(loader, epochs, learning_rate):
 
 def my_validate(x_test, y_test, x_real):
     mdl_dict = model.state_dict()
-    for var in mdl_dict:
-        np_var = mdl_dict[var].cpu().numpy()
-        np.savetxt(var, np_var, '%f')
-    exit()
+    # for var in mdl_dict:
+    #     np_var = mdl_dict[var].cpu().numpy()
+    #     np.savetxt(var, np_var, '%f')
+    # exit()
     l1_w = mdl_dict['l1.weight'].cpu().numpy()
     l1_b = mdl_dict['l1.bias'].cpu().numpy()
-    bn1_w = mdl_dict['bn1.weight'].cpu().numpy()
-    bn1_b = mdl_dict['bn1.bias'].cpu().numpy()
-    bn1_running_mean = mdl_dict['bn1.running_mean'].cpu().numpy()
-    bn1_running_var = mdl_dict['bn1.running_var'].cpu().numpy()
+    bn1_w = mdl_dict['bn1.weight'].cpu().numpy()[np.newaxis, :]
+    bn1_b = mdl_dict['bn1.bias'].cpu().numpy()[np.newaxis, :]
+    bn1_running_mean = mdl_dict['bn1.running_mean'].cpu().numpy()[np.newaxis, :]
+    bn1_running_var = mdl_dict['bn1.running_var'].cpu().numpy()[np.newaxis, :]
     l2_w = mdl_dict['l2.weight'].cpu().numpy()
     l2_b = mdl_dict['l2.bias'].cpu().numpy()
-    bn2_w = mdl_dict['bn2.weight'].cpu().numpy()
-    bn2_b = mdl_dict['bn2.bias'].cpu().numpy()
-    bn2_running_mean = mdl_dict['bn2.running_mean'].cpu().numpy()
-    bn2_running_var = mdl_dict['bn2.running_var'].cpu().numpy()
+    bn2_w = mdl_dict['bn2.weight'].cpu().numpy()[np.newaxis, :]
+    bn2_b = mdl_dict['bn2.bias'].cpu().numpy()[np.newaxis, :]
+    bn2_running_mean = mdl_dict['bn2.running_mean'].cpu().numpy()[np.newaxis, :]
+    bn2_running_var = mdl_dict['bn2.running_var'].cpu().numpy()[np.newaxis, :]
     l3_w = mdl_dict['l3.weight'].cpu().numpy()
     l3_b = mdl_dict['l3.bias'].cpu().numpy()
     # print('input', x_test[0, :])
     y_pred = np.dot(x_test, l1_w.T) + l1_b.T
+    # print(np.shape(y_pred))
     y_pred = (y_pred - bn1_running_mean) / np.sqrt(bn1_running_var + 1e-5)
     y_pred = bn1_w * y_pred + bn1_b
     y_pred[y_pred < 0] = 0
@@ -97,7 +100,7 @@ def my_validate(x_test, y_test, x_real):
     y_pred = np.dot(y_pred, l3_w.T) + l3_b.T
     y_pred = np.apply_along_axis(
         lambda x: np.exp(x) / np.sum(np.exp(x)),
-        0, y_pred
+        1, y_pred
     )
     y_pred = y_pred.argmax(axis=1)
     y_test = y_test.argmax(axis=1)
@@ -113,28 +116,28 @@ def validate(x_test, y_test, x_real):
     y_pred = y_pred.detach().numpy()
     y_pred = y_pred.argmax(axis=1)
     y_test = y_test.argmax(axis=1)
-    print(y_pred)
-    print(y_test)
+    # print(y_pred)
+    # print(y_test)
     print('Accuracy: ', sum(y_pred == y_test) / len(y_test))
-    # mistake_indices = np.where(y_pred != y_test)[0]
-    # # mistake_indices = range(100, 115)
-    # num2key = {
-    #     0: 'key1',
-    #     1: 'key2',
-    #     2: 'key3',
-    #     3: 'key4',
-    #     4: 'key5',
-    #     5: 'No key'
-    # }
-    # for mi in mistake_indices:
-    #     fig = plt.figure()
-    #     fig.set_size_inches(60, 10)
-    #     plt.plot(x_real[mi])
-    #     # print(np.shape(x_test))
-    #     # print(np.shape(x_test[mi][np.newaxis, :]))
-    #     plt.text(2, 3, str(model(Variable(torch.Tensor(x_test[mi][np.newaxis, :])).cuda()).cpu()))
-    #     plt.title('y_pred: {}, y_test: {}'.format(num2key[y_pred[mi]], num2key[y_test[mi]]))
-    #     plt.show()
+    mistake_indices = np.where(y_pred != y_test)[0]
+    # mistake_indices = range(100, 115)
+    num2key = {
+        0: 'key1',
+        1: 'key2',
+        2: 'key3',
+        3: 'key4',
+        4: 'key5',
+        5: 'No key'
+    }
+    for mi in mistake_indices:
+        fig = plt.figure()
+        fig.set_size_inches(60, 10)
+        plt.plot(x_real[mi])
+        # print(np.shape(x_test))
+        # print(np.shape(x_test[mi][np.newaxis, :]))
+        plt.text(2, 3, str(model(Variable(torch.Tensor(x_test[mi][np.newaxis, :])).cuda()).cpu()))
+        plt.title('y_pred: {}, y_test: {}'.format(num2key[y_pred[mi]], num2key[y_test[mi]]))
+        plt.show()
 
 
 if __name__ == '__main__':

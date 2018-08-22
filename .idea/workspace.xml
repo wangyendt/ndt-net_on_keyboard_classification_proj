@@ -2,27 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f44e3684-54d3-44fa-b873-dfc46d462195" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.synctex.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn1.bias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn1.running_mean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn1.running_var" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn1.weight" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn2.bias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn2.running_mean" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn2.running_var" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bn2.weight" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l1.bias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l1.weight" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l2.bias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l2.weight" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l3.bias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l3.weight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_35.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_36.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_37.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_38.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_39.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_40.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NaN_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/NaN_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key1_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key1_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key2_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key2_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key3_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key3_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key4_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key4_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/key5_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/key5_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_without_affine.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ndt_net_torch.py" beforeDir="false" afterPath="$PROJECT_DIR$/ndt_net_torch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,17 +156,31 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$py_test_in_ndt_net_torch_py.coverage" NAME="py.test in ndt_net_torch.py Coverage Results" MODIFIED="1534840319237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$ndt_net_torch.coverage" NAME="ndt_net_torch Coverage Results" MODIFIED="1534840390299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$DataLoader.coverage" NAME="DataLoader Coverage Results" MODIFIED="1534857733359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$ndt_net_torch.coverage" NAME="ndt_net_torch Coverage Results" MODIFIED="1534881289340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ndt_net_on_keyboard_classification_proj$build_temp_model.coverage" NAME="build_temp_model Coverage Results" MODIFIED="1534857519307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/NDT project/Data/20180821 vivo温度补偿" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ndt_net_torch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ndt_net_torch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="266">
+              <caret line="139" column="18" lean-forward="true" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
               <folding>
                 <element signature="e#181#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataLoader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataLoader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#178#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +194,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="E:/NDT project/Data/20180821 vivo温度补偿/build_temp_model.py" />
+        <option value="$PROJECT_DIR$/DataLoader.py" />
         <option value="$PROJECT_DIR$/ndt_net_torch.py" />
       </list>
     </option>
@@ -122,6 +261,44 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.ndt_net_torch">
+    <configuration name="DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ndt-net_on_keyboard_classification_proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataLoader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="build_temp_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ndt-net_on_keyboard_classification_proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/NDT project/Data/20180821 vivo温度补偿" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/NDT project/Data/20180821 vivo温度补偿/build_temp_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ndt_net_torch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ndt-net_on_keyboard_classification_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,10 +336,14 @@
     <list>
       <item itemvalue="Python tests.py.test in ndt_net_torch.py" />
       <item itemvalue="Python.ndt_net_torch" />
+      <item itemvalue="Python.build_temp_model" />
+      <item itemvalue="Python.DataLoader" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ndt_net_torch" />
+        <item itemvalue="Python.DataLoader" />
+        <item itemvalue="Python.build_temp_model" />
         <item itemvalue="Python tests.py.test in ndt_net_torch.py" />
       </list>
     </recent_temporary>
@@ -190,27 +371,27 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36759582" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17946646" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4303136" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17946646" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,8 +403,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ndt_net_torch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="174">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#181#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/NDT project/Data/20180821 vivo温度补偿/build_temp_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#19#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/NDT project/Data/20180821 vivo温度补偿/build_temp_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#19#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#178#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndt_net_torch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="139" column="18" lean-forward="true" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
           <folding>
             <element signature="e#181#193#0" expanded="true" />
           </folding>
